@@ -1,7 +1,9 @@
 module Polymer.Iron exposing (selector)
 
 {-|
+
 @docs selector
+
 -}
 
 import Html exposing (Attribute, Html, node)

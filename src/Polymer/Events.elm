@@ -1,15 +1,22 @@
-module Polymer.Events exposing (onIronSelect, onSelectedChanged, onTap, onValueChanged)
+module Polymer.Events exposing
+    ( onIronSelect
+    , onSelectedChanged
+    , onTap
+    , onValueChanged
+    )
 
 {-|
+
 @docs onIronSelect
 @docs onSelectedChanged
 @docs onTap
 @docs onValueChanged
+
 -}
 
 import Html exposing (Attribute)
-import Json.Decode exposing (andThen, at, Decoder, map, string, succeed)
 import Html.Events exposing (on)
+import Json.Decode exposing (Decoder, andThen, at, map, string, succeed)
 
 
 {-| -}

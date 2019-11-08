@@ -1,7 +1,9 @@
 module Polymer.Firebase exposing (app)
 
 {-|
+
 @docs app
+
 -}
 
 import Html exposing (Attribute, Html, node)

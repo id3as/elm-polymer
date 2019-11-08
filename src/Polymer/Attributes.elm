@@ -1,15 +1,15 @@
-module Polymer.Attributes
-    exposing
-        ( attrForSelected
-        , boolProperty
-        , icon
-        , label
-        , path
-        , selected
-        , stringProperty
-        )
+module Polymer.Attributes exposing
+    ( attrForSelected
+    , boolProperty
+    , icon
+    , label
+    , path
+    , selected
+    , stringProperty
+    )
 
 {-|
+
 @docs attrForSelected
 @docs boolProperty
 @docs icon
@@ -17,11 +17,12 @@ module Polymer.Attributes
 @docs path
 @docs selected
 @docs stringProperty
+
 -}
 
 import Html exposing (Attribute)
 import Html.Attributes exposing (property)
-import Json.Encode exposing (string, bool)
+import Json.Encode exposing (bool, string)
 
 
 {-| -}

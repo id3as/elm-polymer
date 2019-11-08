@@ -1,107 +1,104 @@
-module Polymer.Paper
-    exposing
-        ( badge
-        , behaviors
-        , button
-        , card
-        , checkbox
-        , dialog
-        , dialogBehavior
-        , dialogScrollable
-        , drawerPanel
-        , dropdownMenu
-        , fab
-        , headerPanel
-        , iconButton
-        , input
-        , item
-        , iconItem
-        , itemBody
-        , listbox
-        , material
-        , menu
-        , menuButton
-        , progress
-        , radioButton
-        , radioGroup
-        , ripple
-        , scrollHeaderPanel
-        , slider
-        , spinner
-        , styles
-        , tabs
-        , tab
-        , toast
-        , toggleButton
-        , toolbar
-        , tooltip
-        )
+module Polymer.Paper exposing
+    ( badge
+    , behaviors
+    , button
+    , card
+    , checkbox
+    , dialog
+    , dialogBehavior
+    , dialogScrollable
+    , drawerPanel
+    , dropdownMenu
+    , fab
+    , headerPanel
+    , iconButton
+    , input
+    , item, iconItem, itemBody
+    , listbox
+    , material
+    , menu
+    , menuButton
+    , progress
+    , radioButton
+    , radioGroup
+    , ripple
+    , scrollHeaderPanel
+    , slider
+    , spinner
+    , styles
+    , tabs, tab
+    , toast
+    , toggleButton
+    , toolbar
+    , tooltip
+    )
 
-{-|
-#Material design status message for elements
+{-| #Material design status message for elements
+
 @docs badge
-#Common behaviors across the paper elements
+@docs #Common behaviors across the paper elements
 @docs behaviors
-#Material design button
+@docs #Material design button
 @docs button
-#Material design piece of paper with unique related data
+@docs #Material design piece of paper with unique related data
 @docs card
-#A material design checkbox
+@docs #A material design checkbox
 @docs checkbox
-#A Material Design dialog
+@docs #A Material Design dialog
 @docs dialog
-#Implements a behavior used for material design dialogs
+@docs #Implements a behavior used for material design dialogs
 @docs dialogBehavior
-#A scrollable area used inside the material design dialog
+@docs #A scrollable area used inside the material design dialog
 @docs dialogScrollable
-#A responsive drawer panel
+@docs #A responsive drawer panel
 @docs drawerPanel
-#An element that works similarly to a native browser select
+@docs #An element that works similarly to a native browser select
 @docs dropdownMenu
-#A material design floating action button
+@docs #A material design floating action button
 @docs fab
-#A header and content wrapper for layout with headers
+@docs #A header and content wrapper for layout with headers
 @docs headerPanel
-#A material design icon button
+@docs #A material design icon button
 @docs iconButton
-#Material design text fields
+@docs #Material design text fields
 @docs input
-#A material-design styled list item
+@docs #A material-design styled list item
 @docs item, iconItem, itemBody
-#Implements an accessible material design listbox
+@docs #Implements an accessible material design listbox
 @docs listbox
-#A material design container that looks like a lifted sheet of paper
+@docs #A material design container that looks like a lifted sheet of paper
 @docs material
-#Implements an accessible material design menu
+@docs #Implements an accessible material design menu
 @docs menu
-#A material design element that composes a trigger and a dropdown menu
+@docs #A material design element that composes a trigger and a dropdown menu
 @docs menuButton
-#A material design progress bar
+@docs #A material design progress bar
 @docs progress
-#A material design radio button
+@docs #A material design radio button
 @docs radioButton
-#A group of material design radio buttons
+@docs #A group of material design radio buttons
 @docs radioGroup
-#Adds a material design ripple to any container
+@docs #Adds a material design ripple to any container
 @docs ripple
-#A header bar with scrolling behavior
+@docs #A header bar with scrolling behavior
 @docs scrollHeaderPanel
-#A material design-style slider
+@docs #A material design-style slider
 @docs slider
-#A material design spinner
+@docs #A material design spinner
 @docs spinner
-#Common (global) styles for Material Design elements.
+@docs #Common (global) styles for Material Design elements.
 @docs styles
-#Material design tabs
+@docs #Material design tabs
 @docs tabs, tab
-#A material design notification toast
+@docs #A material design notification toast
 @docs toast
-#A material design toggle button control
+@docs #A material design toggle button control
 @docs toggleButton
-#A material design toolbar that is easily customizable
+@docs #A material design toolbar that is easily customizable
 @docs toolbar
-#Material design tooltip popup for content
+@docs #Material design tooltip popup for content
 @docs tooltip
+
 -}
 
 import Html exposing (Attribute, Html, node)
@@ -199,6 +196,7 @@ input =
 {-| Material design: Lists
 
 `item` is an interactive list item. By default, it is a horizontal flexbox.
+
 -}
 item : List (Attribute msg) -> List (Html msg) -> Html msg
 item =
@@ -296,6 +294,7 @@ styles =
 `tabs` makes it easy to explore and switch between different views or functional aspects of an app, or to browse categorized data sets.
 
 Use selected property to get or set the selected tab.
+
 -}
 tabs : List (Attribute msg) -> List (Html msg) -> Html msg
 tabs =

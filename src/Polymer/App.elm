@@ -1,20 +1,21 @@
-module Polymer.App
-    exposing
-        ( drawer
-        , drawerLayout
-        , header
-        , headerLayout
-        , route
-        , toolbar
-        )
+module Polymer.App exposing
+    ( drawer
+    , drawerLayout
+    , header
+    , headerLayout
+    , route
+    , toolbar
+    )
 
 {-|
+
 @docs drawer
 @docs drawerLayout
 @docs header
 @docs headerLayout
 @docs route
 @docs toolbar
+
 -}
 
 import Html exposing (Attribute, Html, node)
